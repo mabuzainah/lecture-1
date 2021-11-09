@@ -9,8 +9,10 @@ const userName = process.argv[2];
 const userNameFULL = process.arg; // will return full length string including "node" and "printName.js" 
 
 function printName () {
-    console.log("Welcome to WebDevCore", userName);
-    console.log("Welcome to WebDevCore " + userName + "!");
+    //console.log("Welcome to WebDevCore", userName);
+   // console.log("Welcome to WebDevCore " + userName + "!");
+   const message = "Welcome to WebDevCore " + userName + "!";
+   console.log(message);
     
 }
 
